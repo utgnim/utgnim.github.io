@@ -4,21 +4,22 @@
     <title>It&#39;s a blog</title>
     <link href="https://utgnim.github.io" />
     <updated>2025-07-10T12:55:05.000Z</updated>
+    <category term="转载" />
     <category term="抄书" />
     <category term="练字" />
     <category term="庸人自扰" />
     <entry>
-        <id>https://utgnim.github.io/%E3%80%8E%E8%BD%AC%E8%BD%BD%E3%80%8F%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80-%E2%80%94%E2%80%94%E2%80%94%E2%80%94-Hexo-%E7%AE%80%E6%B4%81%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90/</id>
-        <title>『转载』大道至简 ———— Hexo 简洁主题推荐</title>
-        <link rel="alternate" href="https://utgnim.github.io/%E3%80%8E%E8%BD%AC%E8%BD%BD%E3%80%8F%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80-%E2%80%94%E2%80%94%E2%80%94%E2%80%94-Hexo-%E7%AE%80%E6%B4%81%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90/"/>
+        <id>https://utgnim.github.io/%E3%80%8E%E8%BD%AC%E8%BD%BD%E3%80%8F%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80%E2%80%94%E2%80%94Hexo-%E7%AE%80%E6%B4%81%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90/</id>
+        <title>『转载』大道至简 —— Hexo 简洁主题推荐</title>
+        <link rel="alternate" href="https://utgnim.github.io/%E3%80%8E%E8%BD%AC%E8%BD%BD%E3%80%8F%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80%E2%80%94%E2%80%94Hexo-%E7%AE%80%E6%B4%81%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90/"/>
         <content type="html">&lt;p&gt;本文转载自 &lt;a href=&#34;https://www.haomwei.com/technology/maupassant-hexo.html&#34;&gt;大道至简——Hexo简洁主题推荐&lt;/a&gt;，未经作者授权。&lt;/p&gt;
-&lt;h1 id=&#34;大道至简——Hexo简洁主题推荐&#34;&gt;&lt;a href=&#34;#大道至简——Hexo简洁主题推荐&#34; class=&#34;headerlink&#34; title=&#34;大道至简——Hexo简洁主题推荐&#34;&gt;&lt;/a&gt;大道至简——Hexo简洁主题推荐&lt;/h1&gt;&lt;p&gt;&lt;strong&gt;『注：本文更新于2022年1月27日』&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;『注：本文更新于2022年1月27日』&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;Maupassant最初是由&lt;a href=&#34;https://github.com/pagecho/&#34;&gt;Cho&lt;/a&gt;大神为&lt;a href=&#34;http://typecho.org/&#34;&gt;Typecho&lt;/a&gt;平台设计开发的一套响应式模板，体积只有20KB，在各种尺寸的设备上表现出色。由于其简洁大气的风格受到许多用户喜爱，目前也已经被移植到了多个平台上，例如：&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Typecho：&lt;/li&gt;
-&lt;li&gt;Octopress：&lt;/li&gt;
-&lt;li&gt;Farbox：&lt;/li&gt;
-&lt;li&gt;Hugo:&lt;/li&gt;
+&lt;li&gt;Typecho：&lt;a href=&#34;https://github.com/pagecho/maupassant/&#34;&gt;https://github.com/pagecho/maupassant/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Octopress：&lt;a href=&#34;https://github.com/pagecho/mewpassant/&#34;&gt;https://github.com/pagecho/mewpassant/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Farbox：&lt;a href=&#34;https://github.com/pagecho/Maupassant-farbox/&#34;&gt;https://github.com/pagecho/Maupassant-farbox/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Hugo：&lt;a href=&#34;https://github.com/rujews/maupassant-hugo/&#34;&gt;https://github.com/rujews/maupassant-hugo/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我在一年多以前使用&lt;a href=&#34;http://typecho.org/&#34;&gt;Typecho&lt;/a&gt;博客程序的时候就用过这套主题（&lt;a href=&#34;/technology/maupassant.html&#34;&gt;历史文章&lt;/a&gt;），后来更换至&lt;a href=&#34;https://hexo.io/&#34;&gt;Hexo&lt;/a&gt;后不得不暂时放弃它，直到几个月前发现了由&lt;a href=&#34;https://github.com/icylogic/&#34;&gt;icylogic&lt;/a&gt;移植到Hexo的版本，喜出望外，立刻回归到Maupassant。&lt;/p&gt;
 &lt;p&gt;不过由&lt;a href=&#34;https://github.com/icylogic/&#34;&gt;icylogic&lt;/a&gt;最初移植的版本只保留了主题最基本的模块，跟&lt;a href=&#34;https://github.com/pagecho/&#34;&gt;Cho&lt;/a&gt;自己发布的&lt;a href=&#34;https://github.com/pagecho/Maupassant-farbox/&#34;&gt;Farbox版&lt;/a&gt;类似，无法满足大部分爱折腾的Hexoer的需要。因此，在这半年的使用过程中，我将&lt;a href=&#34;https://github.com/icylogic/maupassant-hexo&#34;&gt;icylogic的源码&lt;/a&gt;fork过来，陆陆续续添加了一些想要的功能，目前能够实现的功能已经跟当初Typecho平台上的版本差不多了。&lt;/p&gt;
@@ -118,6 +119,7 @@
 &lt;h2 id=&#34;贡献代码&#34;&gt;&lt;a href=&#34;#贡献代码&#34; class=&#34;headerlink&#34; title=&#34;贡献代码&#34;&gt;&lt;/a&gt;贡献代码&lt;/h2&gt;&lt;p&gt;接受各种形式的贡献，包括不限于提交问题与需求，修复代码。等待您的&lt;a href=&#34;https://github.com/tufu9441/maupassant-hexo/pulls&#34;&gt;Pull Request&lt;/a&gt;。&lt;/p&gt;
 &lt;h2 id=&#34;贡献者&#34;&gt;&lt;a href=&#34;#贡献者&#34; class=&#34;headerlink&#34; title=&#34;贡献者&#34;&gt;&lt;/a&gt;贡献者&lt;/h2&gt;&lt;p&gt;&lt;img src=&#34;https://contrib.rocks/image?repo=tufu9441/maupassant-hexo&#34; alt=&#34;贡献者&#34;&gt;&lt;/p&gt;
 </content>
+        <category term="转载" />
         <updated>2025-07-10T12:55:05.000Z</updated>
     </entry>
     <entry>
