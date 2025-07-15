@@ -3156,7 +3156,7 @@ ul {
 }
 
 .breadcrumb-gal {
-  background-color: rgba(230, 238, 232, 0.5);
+  background-color: rgba(230, 238, 232, 0.75);
   box-shadow: rgb(194, 194, 194) 0px 0px 5px;
   -webkit-box-shadow: rgb(194, 194, 194) 0px 0px 5px;
   -moz-box-shadow: rgb(194, 194, 194) 0px 0px 5px;
@@ -3166,7 +3166,7 @@ ul {
 
 .panel {
   border-radius: 4px;
-  background-color: rgba(230, 238, 232, 0.5);
+  background-color: rgba(230, 238, 232, 0.75);
   box-shadow: 0 0 5px #c2c2c2;
   -webkit-box-shadow: 0 0 5px #c2c2c2;
   -moz-box-shadow: 0 0 5px #c2c2c2;
@@ -3181,7 +3181,7 @@ ul {
 }
 
 .panel2 {
-  background-color: rgba(230, 238, 232, 0.5);
+  background-color: rgba(230, 238, 232, 0.75);
 }
 
 .panel-heading {
@@ -4842,7 +4842,7 @@ ul.pills-gal li a:hover {
   text-decoration: none;
 }
 #comments-template .gitment-container.gitment-root-container .gitment-comments-container.comment-list > li {
-  background-color: rgba(230, 238, 232, 0.5);
+  background-color: rgba(230, 238, 232, 0.75);
   box-shadow: black 0 0 8px;
   -webkit-box-shadow: black 0 0 8px;
   -moz-box-shadow: black 0 0 8px;
@@ -6111,7 +6111,7 @@ ul.pills-gal li a:hover {
 
 .gt-container .gt-header {
   position: relative;
-  background-color: rgba(230, 238, 232, 0.5);
+  background-color: rgba(230, 238, 232, 0.75);
   padding: 0.625em 0.625em;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -6261,7 +6261,7 @@ ul.pills-gal li a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: rgba(230, 238, 232, 0.5);
+  background-color: rgba(230, 238, 232, 0.75);
   box-shadow: black 0px 0px 8px;
   -webkit-box-shadow: black 0px 0px 8px;
   -moz-box-shadow: black 0px 0px 8px;
