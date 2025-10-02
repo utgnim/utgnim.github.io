@@ -7,10 +7,10 @@
         <language>zh-CN</language>
         <pubDate>Mon, 29 Sep 2025 20:07:31 +0800</pubDate>
         <lastBuildDate>Mon, 29 Sep 2025 20:07:31 +0800</lastBuildDate>
-        <category>技术</category>
         <category>抄书</category>
         <category>练字</category>
         <category>转载</category>
+        <category>技术</category>
         <category>庸人自扰</category>
         <category>中文马克思主义文库</category>
         <item>
@@ -74,6 +74,27 @@
 &lt;p&gt;微软常用运行库合集_By:Dreamcast [ &lt;a href=&#34;https://wwa.lanzout.com/b0b8rs19a#9527&#34;&gt;https://wwa.lanzout.com/b0b8rs19a#9527&lt;/a&gt; ]&lt;/p&gt;
 &lt;p&gt;至此，安装结束！&lt;/p&gt;
 &lt;p&gt;二〇二五年九月二十九日夜&lt;/p&gt;
+&lt;p&gt;补充&lt;/p&gt;
+&lt;p&gt;关于 蓝牙音频驱动 这个似乎可以用，但不清楚是否和系统自己带的  个人局域网服务  有什么区别，装上就没有叹号了，但我没有蓝牙音频设备无法测试设备是否可以正常连接使用，驱动程序提供商是 Broadcom&lt;/p&gt;
+&lt;p&gt;下载来源：[&lt;a href=&#34;https://geek-speak.ru/download/driver-ms_bthpan/]&#34;&gt;https://geek-speak.ru/download/driver-ms_bthpan/]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;病毒检测：[&lt;a href=&#34;https://www.virustotal.com/gui/file/82f5fda2dcb57419413b7a7284ce6e3c1b1049f43a44245e5e22e010fb73b34f]&#34;&gt;https://www.virustotal.com/gui/file/82f5fda2dcb57419413b7a7284ce6e3c1b1049f43a44245e5e22e010fb73b34f]&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;另外有个一劳永逸的方法，不用需要费力给驱动签名消除叹号，相当于每次开机默认以  关闭驱动程序强制验证  选项开机，缺点就是每次开机，开机界面都会有一堆命令显示&lt;/p&gt;
+&lt;p&gt;纠正，需要每次开机重新执行一遍 EfiDSEFix.exe -d 才行，可以结合 任务计划程序 设置开机自动运行，并且加上  禁用  启用  没有数字签名的设备命令，需要用到 WDK 里的 devcon.exe&lt;/p&gt;
+&lt;p&gt;项目地址：[&lt;a href=&#34;https://github.com/Mattiwatti/EfiGuard]&#34;&gt;https://github.com/Mattiwatti/EfiGuard]&lt;/a&gt; （在 [&lt;a href=&#34;https://github.com/PIKACHUIM/FakeSign/issues/9]&#34;&gt;https://github.com/PIKACHUIM/FakeSign/issues/9]&lt;/a&gt; 这里了解到该项目）&lt;/p&gt;
+&lt;p&gt;使用的前提条件是  内存完整性（HVCI）为关闭状态&lt;/p&gt;
+&lt;p&gt;步骤如下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;p&gt;下载 [&lt;a href=&#34;https://github.com/Mattiwatti/EfiGuard/releases/download/v1.4/EfiGuard-v1.4.zip]%EF%BC%8C%E8%A7%A3%E5%8E%8B%E5%88%B0%E4%BB%BB%E6%84%8F%E7%9B%AE%E5%BD%95%EF%BC%88%E4%B8%8B%E7%A7%B0%E3%80%90EfiGuard&#34;&gt;https://github.com/Mattiwatti/EfiGuard/releases/download/v1.4/EfiGuard-v1.4.zip]，解压到任意目录（下称【EfiGuard&lt;/a&gt; 目录】 ），不要删除&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;使用 DiskGenius 或其他工具，将  EfiGuardDxe.efi  Loader.efi  两个文件复制到  \EFI\Boot 下面&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;配合 EasyUEFI 新建启动项，并设置为 Loader.efi ，然后将新建的启动项调整为首位，重启后界面会有命令执行过程显示&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;开机后，以管理员身份运行 命令行窗口，切换到【EfiGuard 目录】 执行 EfiDSEFix.exe -d ，就会禁用 Driver Signature Enforcement（驱动程序签名强制）&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;此时再安装没有经过微软签名的驱动，也不会有叹号出现了&lt;/p&gt;
+&lt;p&gt;由于关闭了 驱动程序强制验证，以后安装程序要谨慎一点，否则电脑很容易中招&lt;/p&gt;
  ]]></description>
         </item>
         <item>

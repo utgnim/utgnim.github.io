@@ -291,6 +291,27 @@
 <p>微软常用运行库合集_By:Dreamcast [ <a target="_blank" rel="noopener" href="https://wwa.lanzout.com/b0b8rs19a#9527">https://wwa.lanzout.com/b0b8rs19a#9527</a> ]</p>
 <p>至此，安装结束！</p>
 <p>二〇二五年九月二十九日夜</p>
+<p>补充</p>
+<p>关于 蓝牙音频驱动 这个似乎可以用，但不清楚是否和系统自己带的  个人局域网服务  有什么区别，装上就没有叹号了，但我没有蓝牙音频设备无法测试设备是否可以正常连接使用，驱动程序提供商是 Broadcom</p>
+<p>下载来源：[<a target="_blank" rel="noopener" href="https://geek-speak.ru/download/driver-ms_bthpan/]">https://geek-speak.ru/download/driver-ms_bthpan/]</a></p>
+<p>病毒检测：[<a target="_blank" rel="noopener" href="https://www.virustotal.com/gui/file/82f5fda2dcb57419413b7a7284ce6e3c1b1049f43a44245e5e22e010fb73b34f]">https://www.virustotal.com/gui/file/82f5fda2dcb57419413b7a7284ce6e3c1b1049f43a44245e5e22e010fb73b34f]</a></p>
+<p>另外有个一劳永逸的方法，不用需要费力给驱动签名消除叹号，相当于每次开机默认以  关闭驱动程序强制验证  选项开机，缺点就是每次开机，开机界面都会有一堆命令显示</p>
+<p>纠正，需要每次开机重新执行一遍 EfiDSEFix.exe -d 才行，可以结合 任务计划程序 设置开机自动运行，并且加上  禁用  启用  没有数字签名的设备命令，需要用到 WDK 里的 devcon.exe</p>
+<p>项目地址：[<a target="_blank" rel="noopener" href="https://github.com/Mattiwatti/EfiGuard]">https://github.com/Mattiwatti/EfiGuard]</a> （在 [<a target="_blank" rel="noopener" href="https://github.com/PIKACHUIM/FakeSign/issues/9]">https://github.com/PIKACHUIM/FakeSign/issues/9]</a> 这里了解到该项目）</p>
+<p>使用的前提条件是  内存完整性（HVCI）为关闭状态</p>
+<p>步骤如下：</p>
+<ol>
+<li><p>下载 [<a target="_blank" rel="noopener" href="https://github.com/Mattiwatti/EfiGuard/releases/download/v1.4/EfiGuard-v1.4.zip]%EF%BC%8C%E8%A7%A3%E5%8E%8B%E5%88%B0%E4%BB%BB%E6%84%8F%E7%9B%AE%E5%BD%95%EF%BC%88%E4%B8%8B%E7%A7%B0%E3%80%90EfiGuard">https://github.com/Mattiwatti/EfiGuard/releases/download/v1.4/EfiGuard-v1.4.zip]，解压到任意目录（下称【EfiGuard</a> 目录】 ），不要删除</p>
+</li>
+<li><p>使用 DiskGenius 或其他工具，将  EfiGuardDxe.efi  Loader.efi  两个文件复制到  \EFI\Boot 下面</p>
+</li>
+<li><p>配合 EasyUEFI 新建启动项，并设置为 Loader.efi ，然后将新建的启动项调整为首位，重启后界面会有命令执行过程显示</p>
+</li>
+<li><p>开机后，以管理员身份运行 命令行窗口，切换到【EfiGuard 目录】 执行 EfiDSEFix.exe -d ，就会禁用 Driver Signature Enforcement（驱动程序签名强制）</p>
+</li>
+</ol>
+<p>此时再安装没有经过微软签名的驱动，也不会有叹号出现了</p>
+<p>由于关闭了 驱动程序强制验证，以后安装程序要谨慎一点，否则电脑很容易中招</p>
 
     </div>
 </article>
@@ -416,7 +437,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/sukebei/%E2%80%9C%E5%8F%A4%E6%96%87%E8%A7%82%E6%AD%A2%E2%80%9D/">“古文观止”</a>
+                    <a href="/sukebei/%E3%80%8E%E8%BD%AC%E8%BD%BD%E3%80%8F%E5%A4%A7%E9%81%93%E8%87%B3%E7%AE%80%E2%80%94%E2%80%94Hexo-%E7%AE%80%E6%B4%81%E4%B8%BB%E9%A2%98%E6%8E%A8%E8%8D%90/">『转载』大道至简 —— Hexo 简洁主题推荐</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/sukebei/%E5%85%B3%E4%BA%8E-Windows-Server-2022-%E5%AE%89%E8%A3%85%E5%9C%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E4%B8%8A%E4%B8%80%E4%BA%9B%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%E5%8F%82%E8%80%83/">关于 Windows Server 2022 安装在笔记本上一些内容整理参考</a>
                 </span>
             </li>
             
@@ -428,37 +455,13 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E6%8B%BE/">浮生六记 - 卷一 闺房记乐 拾</a>
+                    <a href="/sukebei/%E6%96%B0%E6%A6%82%E5%BF%B5%E8%8B%B1%E8%AF%AD-%E7%AC%AC-1-%E5%86%8C/">新概念英语 - 第 1 册</a>
                 </span>
             </li>
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E6%8B%BE%E4%B8%89/">浮生六记 - 卷一 闺房记乐 拾三</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E6%8B%BE%E7%8E%96/">浮生六记 - 卷一 闺房记乐 拾玖</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E6%8B%BE%E6%8D%8C/">浮生六记 - 卷一 闺房记乐 拾捌</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E6%B4%9E%E6%88%BF%E8%8A%B1%E7%83%9B/">浮生六记 - 卷一 闺房记乐 洞房花烛</a>
-                </span>
-            </li>
-            
-            <li class="list-group-item">
-                <span class="post-title">
-                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E6%9F%92/">浮生六记 - 卷一 闺房记乐 柒</a>
+                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E4%BA%8C%E5%8D%81%E4%B8%80/">浮生六记 - 卷一 闺房记乐 二十一</a>
                 </span>
             </li>
             
@@ -470,7 +473,25 @@
             
             <li class="list-group-item">
                 <span class="post-title">
+                    <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E9%99%86/">浮生六记 - 卷一 闺房记乐 陆</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
                     <a href="/sukebei/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90/">浮生六记 - 卷一 闺房记乐</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/sukebei/%E9%9A%8F%E7%AC%94/">随笔</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/sukebei/%E9%9D%92%E5%B9%B4%E5%9C%A8%E9%80%89%E6%8B%A9%E8%81%8C%E4%B8%9A%E6%97%B6%E7%9A%84%E8%80%83%E8%99%91/">青年在选择职业时的考虑</a>
                 </span>
             </li>
             
