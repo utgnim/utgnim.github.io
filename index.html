@@ -1,12 +1,28 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>It's a blog | Mingtu's 二三事！</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>It's a blog | Mingtu's 二三事！</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>// 原始代码：读取系统深色模式偏好
+// var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+
+// 最小化修改：不读取系统偏好，强制默认深色模式
+// 造一个假的对象，让 prefersDarkMode.matches 永远为 true
+var prefersDarkMode = { matches: true };
+
+// 获取切换按钮
 var toggle = document.querySelector('.darkmode-toggle');
+
+// 获取 <html> 元素，用于设置 data-dark 属性
 var html = document.querySelector('html');
 
+// 初始化暗色模式：
+// 优先使用 localStorage.dark（用户上次选择）
+// 如果没有记录，则使用 prefersDarkMode.matches（现在永远为 true）
 html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 
+// 点击按钮时切换暗色模式
 toggle.addEventListener('click', () => {
-localStorage.dark = !(html.dataset.dark == 'true');
-html.dataset.dark = localStorage.dark;
+  // 当前状态取反，并写入 localStorage
+  localStorage.dark = !(html.dataset.dark == 'true');
+
+  // 同步到 <html> 的 data-dark 属性
+  html.dataset.dark = localStorage.dark;
 });</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">It's a blog</h1><a id="logo" href="/.">It's a blog</a><p class="description">Mingtu's 二三事！</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a><a href="/../"><i class="fa fa-ban"> Galgame</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title"><a href="/%E5%85%B3%E4%BA%8E-Windows-Server-2022-%E5%AE%89%E8%A3%85%E5%9C%A8%E7%AC%94%E8%AE%B0%E6%9C%AC%E4%B8%8A%E4%B8%80%E4%BA%9B%E5%86%85%E5%AE%B9%E6%95%B4%E7%90%86%E5%8F%82%E8%80%83/">关于 Windows Server 2022 安装在笔记本上一些内容整理参考</a></h1><div class="post-meta">2025-09-29</div><div class="post-content">近来心血来潮想给笔记本电脑重装系统，遇到的一些问题及解决方案，遂记录汇总；
 前人栽树，后人乘凉，感谢各位大大的帖子指引，帮助很多；
 本方案基于 zh-cn_windows_server_2022_x64_dvd_6c73507d.iso 进行，未在其他系统镜像上进行过测试，因此不保证通用性。

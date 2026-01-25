@@ -1,12 +1,28 @@
-<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>随笔 | It's a blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content=""><title>随笔 | It's a blog</title><link rel="stylesheet" type="text/css" href="/css/style.css?v=1.0.0"><link rel="stylesheet" type="text/css" href="https://unpkg.com/normalize.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/pure-min.css"><link rel="stylesheet" type="text/css" href="https://unpkg.com/purecss/build/grids-responsive-min.css"><link rel="stylesheet" href="https://unpkg.com/font-awesome@4.7.0/css/font-awesome.min.css"><script type="text/javascript" src="https://unpkg.com/jquery/dist/jquery.min.js"></script><link rel="icon" mask="" sizes="any" href="/favicon.ico"><link rel="Shortcut Icon" type="image/x-icon" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><script type="text/javascript" src="https://unpkg.com/clipboard/dist/clipboard.min.js"></script><script type="text/javascript" src="https://unpkg.com/toastr/build/toastr.min.js"></script><link rel="stylesheet" href="https://unpkg.com/toastr/build/toastr.min.css"><div class="darkmode-toggle">🌓</div><script>// 原始代码：读取系统深色模式偏好
+// var prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)');
+
+// 最小化修改：不读取系统偏好，强制默认深色模式
+// 造一个假的对象，让 prefersDarkMode.matches 永远为 true
+var prefersDarkMode = { matches: true };
+
+// 获取切换按钮
 var toggle = document.querySelector('.darkmode-toggle');
+
+// 获取 <html> 元素，用于设置 data-dark 属性
 var html = document.querySelector('html');
 
+// 初始化暗色模式：
+// 优先使用 localStorage.dark（用户上次选择）
+// 如果没有记录，则使用 prefersDarkMode.matches（现在永远为 true）
 html.dataset.dark = localStorage.dark || prefersDarkMode.matches;
 
+// 点击按钮时切换暗色模式
 toggle.addEventListener('click', () => {
-localStorage.dark = !(html.dataset.dark == 'true');
-html.dataset.dark = localStorage.dark;
+  // 当前状态取反，并写入 localStorage
+  localStorage.dark = !(html.dataset.dark == 'true');
+
+  // 同步到 <html> 的 data-dark 属性
+  html.dataset.dark = localStorage.dark;
 });</script><meta name="generator" content="Hexo 7.3.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">随笔</h1><a id="logo" href="/.">It's a blog</a><p class="description">Mingtu's 二三事！</p></div><div id="nav-menu"><a class="current" href="/."><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> 归档</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a><a href="/../"><i class="fa fa-ban"> Galgame</i></a></div></div><div class="pure-g" id="layout"><div class="pure-u-1 pure-u-md-3-4"><div class="content_container"><div class="post"><h1 class="post-title">随笔</h1><div class="post-meta">2025-08-01<span> | </span><span class="category"><a href="/categories/%E8%83%A1%E6%80%9D%E4%B9%B1%E6%83%B3/">胡思乱想</a></span><span class="post-time"><span class="post-meta-item-text"> | </span><span class="post-meta-item-icon"><i class="fa fa-keyboard-o"></i><span class="post-count"> 507</span><span class="post-meta-item-text"> 字</span></span></span><span class="post-time"> | <span class="post-meta-item-icon"><i class="fa fa-clock-o"></i><span class="post-count"> 1</span><span class="post-meta-item-text"> 分钟</span></span></span></div><div class="post-content"><p>每当下班后回到宿舍，似乎就被手机绑架了，不停的切换打开一个又一个应用程序，好像在找寻什么？但似乎又没什么特别重要的东西需要查看。</p>
 <p>打开哔哩哔哩，看看关注的一些人是否更新了视频或动态，但即便更新了，也未必全都会打开看，挑一两个感兴趣的看看而已，而这两个也并不是非要打开看不可；去主页翻翻有无感兴趣的视频，或许不看视频只看评论区，或许只看视频不看评论区，或许扫过标题就划过去，没有任何目的性，浪费时间而已。</p>
 <p>打开微信、QQ，查看同学舍友发了什么消息，查看加入的一些稀奇古怪的群聊又有了什么新的话题，只是看看而已。</p>
