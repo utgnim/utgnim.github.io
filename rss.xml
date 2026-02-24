@@ -5,14 +5,39 @@
         <link>https://utgnim.github.io</link>
         <description></description>
         <language>zh-CN</language>
-        <pubDate>Mon, 23 Feb 2026 11:33:58 +0000</pubDate>
-        <lastBuildDate>Mon, 23 Feb 2026 11:33:58 +0000</lastBuildDate>
+        <pubDate>Tue, 24 Feb 2026 14:39:17 +0000</pubDate>
+        <lastBuildDate>Tue, 24 Feb 2026 14:39:17 +0000</lastBuildDate>
         <category>技术</category>
         <category>抄书</category>
         <category>练字</category>
         <category>转载</category>
         <category>歌词</category>
         <category>中文马克思主义文库</category>
+        <item>
+            <guid isPermalink="true">https://utgnim.github.io/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E4%BA%8C%E5%8D%81%E5%9B%9B/</guid>
+            <title>浮生六记-卷一-闺房记乐-二十四</title>
+            <link>https://utgnim.github.io/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E4%BA%8C%E5%8D%81%E5%9B%9B/</link>
+            <category>抄书</category>
+            <category>练字</category>
+            <pubDate>Tue, 24 Feb 2026 14:39:17 +0000</pubDate>
+            <description><![CDATA[ &lt;p&gt;命仆至船艄，与舟子同饮。&lt;/p&gt;
+&lt;p&gt;船家女名素云，与余有杯酒交，人颇不俗，招之与芸同坐。船头不张灯火，待月快酌，射覆为令。素动双目闪闪，听良久，曰：“觞政侬颇娴习，从未闻有斯令，愿受教。”芸即譬其言而开导之，终茫然。&lt;/p&gt;
+&lt;p&gt;余笑曰：“女先生且罢论，我有一言作譬，即了然矣。”&lt;/p&gt;
+&lt;p&gt;芸曰：“鹤善舞而不能耕，牛善耕而不能舞，物性然也，先生欲反而教之，无乃劳乎？”&lt;/p&gt;
+&lt;p&gt;素云笑捶余肩曰：“汝骂我耶！”&lt;/p&gt;
+&lt;p&gt;芸出令曰：“只许动口，不许动手。违者罚大觥。”素云量豪，满斟一觥，一吸而尽。&lt;/p&gt;
+&lt;p&gt;余曰：“动手但准摸索，不准捶人。”&lt;/p&gt;
+&lt;p&gt;芸笑挽素云，置余怀，曰：“请君摸索畅怀。”&lt;/p&gt;
+&lt;p&gt;余笑曰：“卿非解人，摸索在有意无意间耳。拥而狂探，田舍郎之所为也。”&lt;/p&gt;
+&lt;p&gt;时四鬓所簪茉莉，为酒气所蒸，杂以粉汗油香，芳馨透鼻。余戏曰：“小人臭味充满船头，令人作恶。”素云不禁握拳连捶曰：“谁教汝狂嗅耶？”芸呼曰：“违令，罚两大觥！”素云曰：“彼又以小人骂我，不应捶耶？”&lt;/p&gt;
+&lt;p&gt;芸曰：”彼之所谓小人，盖有故也。请干此，当告汝。”&lt;/p&gt;
+&lt;p&gt;素云乃连尽两觥，芸乃告以沧浪旧居乘凉事。素云曰：“若然，真错怪矣，当再罚。”又干一觥。&lt;/p&gt;
+&lt;p&gt;芸曰：“久闻素娘善歌，可一聆妙音否？”&lt;/p&gt;
+&lt;p&gt;素即以象箸击小碟而歌。芸欣然畅饮，不觉酩酊，乃乘舆先归。余又与素云茶话片刻，步月而回。&lt;/p&gt;
+&lt;p&gt;时余寄居友人鲁半舫家萧爽楼中。越数日，鲁夫人误有所闻，私告芸曰：“前日闻若婿挟两妓饮于万年桥舟中，子知之否？”&lt;/p&gt;
+&lt;p&gt;芸曰：“有之，其一即我也。”因以偕游始末详告之。鲁大笑，释然而去。&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://utgnim.github.io/%E6%B5%AE%E7%94%9F%E5%85%AD%E8%AE%B0-%E5%8D%B7%E4%B8%80-%E9%97%BA%E6%88%BF%E8%AE%B0%E4%B9%90-%E4%BA%8C%E5%8D%81%E4%B8%89/</guid>
             <title>浮生六记-卷一-闺房记乐-二十三</title>
@@ -42,10 +67,10 @@
 &lt;p&gt;git config –global user.name “yourname”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;Git-生成-SSH-KEY-并授权-GitHub-项目处理权限&#34;&gt;&lt;a href=&#34;#Git-生成-SSH-KEY-并授权-GitHub-项目处理权限&#34; class=&#34;headerlink&#34; title=&#34;Git 生成 SSH KEY 并授权 GitHub 项目处理权限&#34;&gt;&lt;/a&gt;Git 生成 SSH KEY 并授权 GitHub 项目处理权限&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;ssh-keygen -t ed25519 -C “&lt;a href=&#34;mailto:&amp;#121;&amp;#111;&amp;#x75;&amp;#x72;&amp;#110;&amp;#x61;&amp;#109;&amp;#101;&amp;#x40;&amp;#101;&amp;#109;&amp;#97;&amp;#x69;&amp;#108;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&#34;&gt;&amp;#121;&amp;#111;&amp;#x75;&amp;#x72;&amp;#110;&amp;#x61;&amp;#109;&amp;#101;&amp;#x40;&amp;#101;&amp;#109;&amp;#97;&amp;#x69;&amp;#108;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;“&lt;/p&gt;
+&lt;p&gt;ssh-keygen -t ed25519 -C “&lt;a href=&#34;mailto:&amp;#121;&amp;#111;&amp;#x75;&amp;#114;&amp;#x6e;&amp;#97;&amp;#x6d;&amp;#x65;&amp;#64;&amp;#101;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&#34;&gt;&amp;#121;&amp;#111;&amp;#x75;&amp;#114;&amp;#x6e;&amp;#97;&amp;#x6d;&amp;#x65;&amp;#64;&amp;#101;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#x6d;&lt;/a&gt;“&lt;/p&gt;
 &lt;p&gt;cat ~&amp;#x2F;.ssh&amp;#x2F;id_ed25519.pub&lt;/p&gt;
 &lt;p&gt;将公钥填写到 GitHub 设置中&lt;/p&gt;
-&lt;p&gt;ssh -T &lt;a href=&#34;mailto:&amp;#x67;&amp;#105;&amp;#x74;&amp;#64;&amp;#103;&amp;#105;&amp;#x74;&amp;#x68;&amp;#117;&amp;#x62;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&#34;&gt;&amp;#x67;&amp;#105;&amp;#x74;&amp;#64;&amp;#103;&amp;#105;&amp;#x74;&amp;#x68;&amp;#117;&amp;#x62;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ssh -T &lt;a href=&#34;mailto:&amp;#103;&amp;#105;&amp;#116;&amp;#64;&amp;#103;&amp;#105;&amp;#116;&amp;#x68;&amp;#117;&amp;#98;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&#34;&gt;&amp;#103;&amp;#105;&amp;#116;&amp;#64;&amp;#103;&amp;#105;&amp;#116;&amp;#x68;&amp;#117;&amp;#98;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;测试连接&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;Git-中显示中文而非转义序列&#34;&gt;&lt;a href=&#34;#Git-中显示中文而非转义序列&#34; class=&#34;headerlink&#34; title=&#34;Git 中显示中文而非转义序列&#34;&gt;&lt;/a&gt;Git 中显示中文而非转义序列&lt;/h2&gt;&lt;blockquote&gt;
