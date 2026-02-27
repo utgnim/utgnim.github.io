@@ -5,14 +5,25 @@
         <link>https://utgnim.github.io/sukebei</link>
         <description></description>
         <language>en</language>
-        <pubDate>Wed, 25 Feb 2026 20:57:39 +0000</pubDate>
-        <lastBuildDate>Wed, 25 Feb 2026 20:57:39 +0000</lastBuildDate>
+        <pubDate>Fri, 27 Feb 2026 15:12:07 +0000</pubDate>
+        <lastBuildDate>Fri, 27 Feb 2026 15:12:07 +0000</lastBuildDate>
         <category>技术</category>
         <category>抄书</category>
         <category>练字</category>
         <category>转载</category>
         <category>歌词</category>
         <category>中文马克思主义文库</category>
+        <item>
+            <guid isPermalink="true">https://utgnim.github.io/sukebei/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%A1%B9%E7%9B%AE/</guid>
+            <title>有意思的项目</title>
+            <link>https://utgnim.github.io/sukebei/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
+            <category>技术</category>
+            <pubDate>Fri, 27 Feb 2026 15:12:07 +0000</pubDate>
+            <description><![CDATA[ &lt;p&gt;程序员做饭指南：&lt;a href=&#34;https://cook.aiursoft.com/&#34;&gt;https://cook.aiursoft.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Markdown 简历排版工具：&lt;a href=&#34;https://resume.mdnice.com/&#34;&gt;https://resume.mdnice.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;文章生成器：&lt;a href=&#34;https://suulnnka.github.io/BullshitGenerator/index.html&#34;&gt;https://suulnnka.github.io/BullshitGenerator/index.html&lt;/a&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://utgnim.github.io/sukebei/%E5%85%B3%E4%BA%8E%E6%B1%BD%E8%BD%A6/</guid>
             <title>关于汽车</title>
@@ -211,10 +222,10 @@
 &lt;p&gt;git config –global user.name “yourname”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;Git-生成-SSH-KEY-并授权-GitHub-项目处理权限&#34;&gt;&lt;a href=&#34;#Git-生成-SSH-KEY-并授权-GitHub-项目处理权限&#34; class=&#34;headerlink&#34; title=&#34;Git 生成 SSH KEY 并授权 GitHub 项目处理权限&#34;&gt;&lt;/a&gt;Git 生成 SSH KEY 并授权 GitHub 项目处理权限&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;ssh-keygen -t ed25519 -C “&lt;a href=&#34;mailto:&amp;#x79;&amp;#x6f;&amp;#117;&amp;#114;&amp;#x6e;&amp;#x61;&amp;#109;&amp;#101;&amp;#x40;&amp;#x65;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&#34;&gt;&amp;#x79;&amp;#x6f;&amp;#117;&amp;#114;&amp;#x6e;&amp;#x61;&amp;#109;&amp;#101;&amp;#x40;&amp;#x65;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#109;&lt;/a&gt;“&lt;/p&gt;
+&lt;p&gt;ssh-keygen -t ed25519 -C “&lt;a href=&#34;mailto:&amp;#121;&amp;#x6f;&amp;#x75;&amp;#114;&amp;#x6e;&amp;#97;&amp;#x6d;&amp;#x65;&amp;#64;&amp;#x65;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&#34;&gt;&amp;#121;&amp;#x6f;&amp;#x75;&amp;#114;&amp;#x6e;&amp;#97;&amp;#x6d;&amp;#x65;&amp;#64;&amp;#x65;&amp;#x6d;&amp;#x61;&amp;#105;&amp;#x6c;&amp;#x2e;&amp;#x63;&amp;#111;&amp;#109;&lt;/a&gt;“&lt;/p&gt;
 &lt;p&gt;cat ~&amp;#x2F;.ssh&amp;#x2F;id_ed25519.pub&lt;/p&gt;
 &lt;p&gt;将公钥填写到 GitHub 设置中&lt;/p&gt;
-&lt;p&gt;ssh -T &lt;a href=&#34;mailto:&amp;#x67;&amp;#x69;&amp;#116;&amp;#x40;&amp;#x67;&amp;#x69;&amp;#116;&amp;#x68;&amp;#x75;&amp;#98;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&#34;&gt;&amp;#x67;&amp;#x69;&amp;#116;&amp;#x40;&amp;#x67;&amp;#x69;&amp;#116;&amp;#x68;&amp;#x75;&amp;#98;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ssh -T &lt;a href=&#34;mailto:&amp;#103;&amp;#105;&amp;#116;&amp;#64;&amp;#103;&amp;#x69;&amp;#116;&amp;#x68;&amp;#x75;&amp;#98;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&#34;&gt;&amp;#103;&amp;#105;&amp;#116;&amp;#64;&amp;#103;&amp;#x69;&amp;#116;&amp;#x68;&amp;#x75;&amp;#98;&amp;#x2e;&amp;#99;&amp;#x6f;&amp;#109;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;测试连接&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;Git-中显示中文而非转义序列&#34;&gt;&lt;a href=&#34;#Git-中显示中文而非转义序列&#34; class=&#34;headerlink&#34; title=&#34;Git 中显示中文而非转义序列&#34;&gt;&lt;/a&gt;Git 中显示中文而非转义序列&lt;/h2&gt;&lt;blockquote&gt;
