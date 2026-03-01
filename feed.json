@@ -5,6 +5,28 @@
     "home_page_url": "https://utgnim.github.io",
     "items": [
         {
+            "id": "https://utgnim.github.io/%E3%80%90%E8%AF%95%E4%BD%9C%E3%80%91%E3%80%8A%E6%99%93%E6%A2%A6%E4%BC%A0%E5%A5%87%E3%80%8B/",
+            "url": "https://utgnim.github.io/%E3%80%90%E8%AF%95%E4%BD%9C%E3%80%91%E3%80%8A%E6%99%93%E6%A2%A6%E4%BC%A0%E5%A5%87%E3%80%8B/",
+            "title": "【试作】《晓梦传奇》",
+            "date_published": "2026-03-01T14:22:44.000Z",
+            "content_html": "<p>晓梦是一名剑客，不知道他师承何处，只是靠着一身绝妙的身法流名于江湖。</p>\n<p>在十年前，还没有人听话过这号人物，真正让他的名字流传于世是六年前发生的一拿震惊江湖乃至朝堂的大事。</p>\n<p>那时我还是一介书生，四方游学，只为考取功名，跋山涉水，远离故乡，终于赶到了都城。</p>\n<p>现在想来或许一切真的都是命，在开考那天天上下起了小雨，从客栈起早出来的我被风一吹打了几个寒颤，想着先都茶铺喝壶茶暖暖身子。在茶上来刚要喝时，突然从门外闯进来几句彪形大汉，手持刀剑，为首一人在店内环视一周便径直向我走来，问道：“这件事是不是你干的？”我有些摸不着头脑，反问道什么事，他有些恼羞成怒的样子，喝到：“你莫要跟我装糊涂，现场都留下了你的食物，你还想抵赖不成？”说着一挥手，其余几人把我按倒在桌上，将我的包袱抢了过去交给他，他打开看了几眼，便说果然在你这里，紧接着我只感觉到后颈遭到一下重击就失去了意识。</p>\n<p>再次醒来时，……</p>\n<p>「试创作结束，后面不知道怎么写了，烂尾！」</p>\n",
+            "tags": [
+                "抄书",
+                "练字"
+            ]
+        },
+        {
+            "id": "https://utgnim.github.io/%E6%91%98%E6%8A%84/",
+            "url": "https://utgnim.github.io/%E6%91%98%E6%8A%84/",
+            "title": "摘抄",
+            "date_published": "2026-03-01T13:37:02.000Z",
+            "content_html": "<p>《第七天》余华</p>\n<p>……<br>我在情感上的愚钝就像是门窗紧闭的屋子，虽然爱情的脚步在屋前走过去又走过来，我也听到了，可是我觉得那是路过的脚步，那是走向别人的脚步。直到有一天，这个脚步停留在这里，然后门铃响了。<br>……<br>……<br>我对他说，走过去吧，那里树叶会向你招手，石头会向你微笑，河水会向你问候，那里没有贫贱也没有宝贵，没有悲伤也没有疼痛，没有仇也没有恨，…… 那里人人死而平等。<br>他问：“那是什么地方？”<br>我说：“死无葬身之地。”</p>\n",
+            "tags": [
+                "抄书",
+                "练字"
+            ]
+        },
+        {
             "id": "https://utgnim.github.io/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%A1%B9%E7%9B%AE/",
             "url": "https://utgnim.github.io/%E6%9C%89%E6%84%8F%E6%80%9D%E7%9A%84%E9%A1%B9%E7%9B%AE/",
             "title": "有意思的项目",
@@ -51,7 +73,7 @@
             "url": "https://utgnim.github.io/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/",
             "title": "常用命令",
             "date_published": "2026-02-15T10:06:24.000Z",
-            "content_html": "<h2 id=\"Git-配置终端识别名\"><a href=\"#Git-配置终端识别名\" class=\"headerlink\" title=\"Git 配置终端识别名\"></a>Git 配置终端识别名</h2><blockquote>\n<p>git config –global user.email “youremail”</p>\n<p>git config –global user.name “yourname”</p>\n</blockquote>\n<h2 id=\"Git-生成-SSH-KEY-并授权-GitHub-项目处理权限\"><a href=\"#Git-生成-SSH-KEY-并授权-GitHub-项目处理权限\" class=\"headerlink\" title=\"Git 生成 SSH KEY 并授权 GitHub 项目处理权限\"></a>Git 生成 SSH KEY 并授权 GitHub 项目处理权限</h2><blockquote>\n<p>ssh-keygen -t ed25519 -C “<a href=\"mailto:&#x79;&#111;&#x75;&#x72;&#110;&#97;&#109;&#x65;&#64;&#x65;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;\">&#x79;&#111;&#x75;&#x72;&#110;&#97;&#109;&#x65;&#64;&#x65;&#x6d;&#x61;&#105;&#x6c;&#46;&#x63;&#x6f;&#109;</a>“</p>\n<p>cat ~&#x2F;.ssh&#x2F;id_ed25519.pub</p>\n<p>将公钥填写到 GitHub 设置中</p>\n<p>ssh -T <a href=\"mailto:&#103;&#105;&#116;&#64;&#103;&#x69;&#116;&#x68;&#117;&#98;&#46;&#99;&#111;&#x6d;\">&#103;&#105;&#116;&#64;&#103;&#x69;&#116;&#x68;&#117;&#98;&#46;&#99;&#111;&#x6d;</a></p>\n<p>测试连接</p>\n</blockquote>\n<h2 id=\"Git-中显示中文而非转义序列\"><a href=\"#Git-中显示中文而非转义序列\" class=\"headerlink\" title=\"Git 中显示中文而非转义序列\"></a>Git 中显示中文而非转义序列</h2><blockquote>\n<p>git config –global core.quotepath false</p>\n</blockquote>\n<h2 id=\"Git-配置代理和取消代理\"><a href=\"#Git-配置代理和取消代理\" class=\"headerlink\" title=\"Git 配置代理和取消代理\"></a>Git 配置代理和取消代理</h2><blockquote>\n<p>git config –global http.proxy <a href=\"http://127.0.0.1:7890/\">http://127.0.0.1:7890</a></p>\n<p>git config –global https.proxy <a href=\"http://127.0.0.1:7890/\">http://127.0.0.1:7890</a></p>\n<p>git config –global –unset-all http.proxy</p>\n<p>git config –global –unset-all https.proxy</p>\n</blockquote>\n<h2 id=\"Git-添加仓库地址，替换仓库地址\"><a href=\"#Git-添加仓库地址，替换仓库地址\" class=\"headerlink\" title=\"Git 添加仓库地址，替换仓库地址\"></a>Git 添加仓库地址，替换仓库地址</h2><blockquote>\n<p>git remote add origin <a href=\"https://github.com/utgnim/____.git\">https://github.com/utgnim/____.git</a></p>\n<p>git remote set-url origin <a href=\"https://github.com/utgnim/_____.git\">https://github.com/utgnim/_____.git</a></p>\n</blockquote>\n<h2 id=\"Hexo-命令\"><a href=\"#Hexo-命令\" class=\"headerlink\" title=\"Hexo 命令\"></a>Hexo 命令</h2><blockquote>\n<p>hexo –config _config.yml g &amp; hexo –config _config_gal.yml g</p>\n</blockquote>\n",
+            "content_html": "<h2 id=\"Git-配置终端识别名\"><a href=\"#Git-配置终端识别名\" class=\"headerlink\" title=\"Git 配置终端识别名\"></a>Git 配置终端识别名</h2><blockquote>\n<p>git config –global user.email “youremail”</p>\n<p>git config –global user.name “yourname”</p>\n</blockquote>\n<h2 id=\"Git-生成-SSH-KEY-并授权-GitHub-项目处理权限\"><a href=\"#Git-生成-SSH-KEY-并授权-GitHub-项目处理权限\" class=\"headerlink\" title=\"Git 生成 SSH KEY 并授权 GitHub 项目处理权限\"></a>Git 生成 SSH KEY 并授权 GitHub 项目处理权限</h2><blockquote>\n<p>ssh-keygen -t ed25519 -C “<a href=\"mailto:&#x79;&#x6f;&#x75;&#114;&#x6e;&#x61;&#109;&#x65;&#64;&#101;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;\">&#x79;&#x6f;&#x75;&#114;&#x6e;&#x61;&#109;&#x65;&#64;&#101;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;</a>“</p>\n<p>cat ~&#x2F;.ssh&#x2F;id_ed25519.pub</p>\n<p>将公钥填写到 GitHub 设置中</p>\n<p>ssh -T <a href=\"mailto:&#x67;&#105;&#116;&#64;&#x67;&#x69;&#116;&#104;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;\">&#x67;&#105;&#116;&#64;&#x67;&#x69;&#116;&#104;&#117;&#98;&#x2e;&#99;&#x6f;&#x6d;</a></p>\n<p>测试连接</p>\n</blockquote>\n<h2 id=\"Git-中显示中文而非转义序列\"><a href=\"#Git-中显示中文而非转义序列\" class=\"headerlink\" title=\"Git 中显示中文而非转义序列\"></a>Git 中显示中文而非转义序列</h2><blockquote>\n<p>git config –global core.quotepath false</p>\n</blockquote>\n<h2 id=\"Git-配置代理和取消代理\"><a href=\"#Git-配置代理和取消代理\" class=\"headerlink\" title=\"Git 配置代理和取消代理\"></a>Git 配置代理和取消代理</h2><blockquote>\n<p>git config –global http.proxy <a href=\"http://127.0.0.1:7890/\">http://127.0.0.1:7890</a></p>\n<p>git config –global https.proxy <a href=\"http://127.0.0.1:7890/\">http://127.0.0.1:7890</a></p>\n<p>git config –global –unset-all http.proxy</p>\n<p>git config –global –unset-all https.proxy</p>\n</blockquote>\n<h2 id=\"Git-添加仓库地址，替换仓库地址\"><a href=\"#Git-添加仓库地址，替换仓库地址\" class=\"headerlink\" title=\"Git 添加仓库地址，替换仓库地址\"></a>Git 添加仓库地址，替换仓库地址</h2><blockquote>\n<p>git remote add origin <a href=\"https://github.com/utgnim/____.git\">https://github.com/utgnim/____.git</a></p>\n<p>git remote set-url origin <a href=\"https://github.com/utgnim/_____.git\">https://github.com/utgnim/_____.git</a></p>\n</blockquote>\n<h2 id=\"Hexo-命令\"><a href=\"#Hexo-命令\" class=\"headerlink\" title=\"Hexo 命令\"></a>Hexo 命令</h2><blockquote>\n<p>hexo –config _config.yml g &amp; hexo –config _config_gal.yml g</p>\n</blockquote>\n",
             "tags": [
                 "技术"
             ]
