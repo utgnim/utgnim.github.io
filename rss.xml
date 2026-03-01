@@ -36,8 +36,8 @@
             <category>抄书</category>
             <category>练字</category>
             <pubDate>Sun, 01 Mar 2026 13:37:02 +0000</pubDate>
-            <description><![CDATA[ &lt;p&gt;《第七天》余华&lt;/p&gt;
-&lt;p&gt;……&lt;br&gt;我在情感上的愚钝就像是门窗紧闭的屋子，虽然爱情的脚步在屋前走过去又走过来，我也听到了，可是我觉得那是路过的脚步，那是走向别人的脚步。直到有一天，这个脚步停留在这里，然后门铃响了。&lt;br&gt;……&lt;br&gt;……&lt;br&gt;我对他说，走过去吧，那里树叶会向你招手，石头会向你微笑，河水会向你问候，那里没有贫贱也没有宝贵，没有悲伤也没有疼痛，没有仇也没有恨，…… 那里人人死而平等。&lt;br&gt;他问：“那是什么地方？”&lt;br&gt;我说：“死无葬身之地。”&lt;/p&gt;
+            <description><![CDATA[ &lt;h2 id=&#34;《第七天》余华&#34;&gt;&lt;a href=&#34;#《第七天》余华&#34; class=&#34;headerlink&#34; title=&#34;《第七天》余华&#34;&gt;&lt;/a&gt;《第七天》余华&lt;/h2&gt;&lt;p&gt;……&lt;br&gt;我在情感上的愚钝就像是门窗紧闭的屋子，虽然爱情的脚步在屋前走过去又走过来，我也听到了，可是我觉得那是路过的脚步，那是走向别人的脚步。直到有一天，这个脚步停留在这里，然后门铃响了。&lt;br&gt;……&lt;br&gt;……&lt;br&gt;我对他说，走过去吧，那里树叶会向你招手，石头会向你微笑，河水会向你问候，那里没有贫贱也没有宝贵，没有悲伤也没有疼痛，没有仇也没有恨，…… 那里人人死而平等。&lt;br&gt;他问：“那是什么地方？”&lt;br&gt;我说：“死无葬身之地。”&lt;/p&gt;
+&lt;h2 id=&#34;《多情剑客无情剑》古龙&#34;&gt;&lt;a href=&#34;#《多情剑客无情剑》古龙&#34; class=&#34;headerlink&#34; title=&#34;《多情剑客无情剑》古龙&#34;&gt;&lt;/a&gt;《多情剑客无情剑》古龙&lt;/h2&gt;&lt;p&gt;和赌鬼赌钱时弄鬼，在酒鬼酒中下毒，当着自己的老婆说别的女人漂亮——无论谁做了这三件事，都一定会后悔的。&lt;/p&gt;
  ]]></description>
         </item>
         <item>
@@ -249,10 +249,10 @@
 &lt;p&gt;git config –global user.name “yourname”&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;Git-生成-SSH-KEY-并授权-GitHub-项目处理权限&#34;&gt;&lt;a href=&#34;#Git-生成-SSH-KEY-并授权-GitHub-项目处理权限&#34; class=&#34;headerlink&#34; title=&#34;Git 生成 SSH KEY 并授权 GitHub 项目处理权限&#34;&gt;&lt;/a&gt;Git 生成 SSH KEY 并授权 GitHub 项目处理权限&lt;/h2&gt;&lt;blockquote&gt;
-&lt;p&gt;ssh-keygen -t ed25519 -C “&lt;a href=&#34;mailto:&amp;#121;&amp;#111;&amp;#x75;&amp;#x72;&amp;#110;&amp;#97;&amp;#x6d;&amp;#101;&amp;#64;&amp;#x65;&amp;#x6d;&amp;#97;&amp;#105;&amp;#108;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&#34;&gt;&amp;#121;&amp;#111;&amp;#x75;&amp;#x72;&amp;#110;&amp;#97;&amp;#x6d;&amp;#101;&amp;#64;&amp;#x65;&amp;#x6d;&amp;#97;&amp;#105;&amp;#108;&amp;#x2e;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;“&lt;/p&gt;
+&lt;p&gt;ssh-keygen -t ed25519 -C “&lt;a href=&#34;mailto:&amp;#121;&amp;#111;&amp;#x75;&amp;#114;&amp;#x6e;&amp;#x61;&amp;#109;&amp;#101;&amp;#x40;&amp;#x65;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&#34;&gt;&amp;#121;&amp;#111;&amp;#x75;&amp;#114;&amp;#x6e;&amp;#x61;&amp;#109;&amp;#101;&amp;#x40;&amp;#x65;&amp;#x6d;&amp;#x61;&amp;#x69;&amp;#108;&amp;#46;&amp;#99;&amp;#x6f;&amp;#x6d;&lt;/a&gt;“&lt;/p&gt;
 &lt;p&gt;cat ~&amp;#x2F;.ssh&amp;#x2F;id_ed25519.pub&lt;/p&gt;
 &lt;p&gt;将公钥填写到 GitHub 设置中&lt;/p&gt;
-&lt;p&gt;ssh -T &lt;a href=&#34;mailto:&amp;#103;&amp;#105;&amp;#x74;&amp;#64;&amp;#103;&amp;#x69;&amp;#116;&amp;#x68;&amp;#x75;&amp;#x62;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&#34;&gt;&amp;#103;&amp;#105;&amp;#x74;&amp;#64;&amp;#103;&amp;#x69;&amp;#116;&amp;#x68;&amp;#x75;&amp;#x62;&amp;#46;&amp;#99;&amp;#111;&amp;#109;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;ssh -T &lt;a href=&#34;mailto:&amp;#x67;&amp;#105;&amp;#116;&amp;#x40;&amp;#x67;&amp;#105;&amp;#x74;&amp;#104;&amp;#117;&amp;#x62;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&#34;&gt;&amp;#x67;&amp;#105;&amp;#116;&amp;#x40;&amp;#x67;&amp;#105;&amp;#x74;&amp;#104;&amp;#117;&amp;#x62;&amp;#46;&amp;#x63;&amp;#x6f;&amp;#x6d;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;测试连接&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;Git-中显示中文而非转义序列&#34;&gt;&lt;a href=&#34;#Git-中显示中文而非转义序列&#34; class=&#34;headerlink&#34; title=&#34;Git 中显示中文而非转义序列&#34;&gt;&lt;/a&gt;Git 中显示中文而非转义序列&lt;/h2&gt;&lt;blockquote&gt;
