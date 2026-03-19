@@ -1,0 +1,28 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "It's a blog • All posts by \"庸人自扰\" tag",
+    "description": "",
+    "home_page_url": "https://utgnim.github.io/sukebei",
+    "items": [
+        {
+            "id": "https://utgnim.github.io/sukebei/%E4%B8%80%E7%A7%8D%E5%BF%83%E7%90%86/",
+            "url": "https://utgnim.github.io/sukebei/%E4%B8%80%E7%A7%8D%E5%BF%83%E7%90%86/",
+            "title": "一种心理",
+            "date_published": "2026-03-19T05:13:36.000Z",
+            "content_html": "<p>上学时有这样一种心理，想尽可能的与周围的人保持一致，不愿被拉下，害怕被孤立；</p>\n<p>于是，别人做什么就跟着做什么，但无奈并非总是“生在麻中”，所以就“与之俱黑”了；</p>\n<p>不过现在我想我完全可以孤立一群人；</p>\n",
+            "tags": [
+                "庸人自扰"
+            ]
+        },
+        {
+            "id": "https://utgnim.github.io/sukebei/%E5%85%B3%E4%BA%8E%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%E5%B7%A5%E5%85%B7%E4%B8%8A%E7%9A%84%E5%B1%8F%E5%B9%95/",
+            "url": "https://utgnim.github.io/sukebei/%E5%85%B3%E4%BA%8E%E5%85%AC%E5%85%B1%E4%BA%A4%E9%80%9A%E5%B7%A5%E5%85%B7%E4%B8%8A%E7%9A%84%E5%B1%8F%E5%B9%95/",
+            "title": "关于公共交通工具上的屏幕",
+            "date_published": "2026-03-19T05:09:44.000Z",
+            "content_html": "<p>公共交通工具小屏幕上播放的内容是否算是一种“精神污染”呢？</p>\n<p>无休止的循环播放，不论乘客是否想看想听，只要公交车启动就会永不停歇播放；</p>\n",
+            "tags": [
+                "庸人自扰"
+            ]
+        }
+    ]
+}
